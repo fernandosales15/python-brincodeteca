@@ -18,5 +18,8 @@ VS Code (clicando em LF/CRLF) ou configurando a propriedade "files.eol" nas
 configurações (settings.json) para forçar um padrão para seu projeto ou globalmente. 
 """
 
-print("Olá Fernando! Você deseja ser", "Associate Software Engineer", "no Nubank?", sep=" ")
-print(r"Fernando, será que você vai ser \"Associate Software Engineer?\" ", sep=":")
+print("Olá Fernando! Você deseja ser", "Associate Software Engineer", "no Nubank?", sep="-")
+# O 'sep' abaixo não tem efeito, pois há apenas um argumento para a função print.
+print(r"Fernando, será que você vai ser \"Associate Software Engineer?\" ")
+# Agora, com dois argumentos, o 'sep' funciona como esperado.
+print("Fernando, será que você vai ser", r"\"Associate Software Engineer?\"", sep=":")
