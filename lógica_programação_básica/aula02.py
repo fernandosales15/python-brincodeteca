@@ -17,3 +17,6 @@ o padrão Unix/Linux/Mac, e você pode visualizar e mudar isso no canto inferior
 VS Code (clicando em LF/CRLF) ou configurando a propriedade "files.eol" nas 
 configurações (settings.json) para forçar um padrão para seu projeto ou globalmente. 
 """
+
+print("Olá Fernando! Você deseja ser", "Associate Software Engineer", "no Nubank?", sep=" ")
+print(r"Fernando, será que você vai ser \"Associate Software Engineer?\" ", sep=":")
