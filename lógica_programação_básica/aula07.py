@@ -10,7 +10,7 @@ print("Nome:", nome, "atualmente tenho:", idade, "anos de idade.", "Minha altura
 print("Nome completo:", nome_completo)
 print("Fernando é maior de idade?", maior_de_idade)
 
-int_um = int('um') # BUG: Tentar converter texto não numérico gera erro!
+int_um = int('1') #Converte a string '1' para o inteiro 1
 print(int_um)
 soma_dois_mais_dois = 2 + 2
 print("A soma de 2 + 2 é igual á:", soma_dois_mais_dois)
