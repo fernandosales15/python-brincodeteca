@@ -1,9 +1,9 @@
-#Operadores Aritmeticos
+#Operadores Aritméticos
 
 adicao = 10 + 10 #Soma os dois números
 print("Resultado da Adição:", adicao)
 
-subtracao = 722 - 22  #Subtra o segundo número do primeiro
+subtracao = 722 - 22  #Subtrai o segundo número do primeiro
 print("Resultado da Subtração:", subtracao)
 
 multiplicacao = 10 * 100 #Multiplica os dois números
