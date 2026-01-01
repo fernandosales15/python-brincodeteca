@@ -6,4 +6,9 @@ peso_kg = 80
 imc = peso_kg / (altura_metros * altura_metros)
 
 print(f"O Analista {nome_completo} possui {altura_metros}, de altura")
-print(f"e pesa {peso_kg} kg, portando seu IMC é de {imc}")
+print(f"e pesa {peso_kg} kg, portando seu IMC é de {imc}" )
+
+print(" ------- IMPRESSÃO DE MODO DIFERENTE ------- ")
+print(nome_completo, "possui", altura_metros, "de altura, ")
+print("e pesa", peso_kg, "kg, portanto seu IMC é de:", imc)
+print(" ------- FIM DO PROGRAMA ------- ")
