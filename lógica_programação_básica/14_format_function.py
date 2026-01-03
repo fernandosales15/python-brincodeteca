@@ -42,3 +42,7 @@ print("Carreira Starts: {1}, -> {2}. -> {0}. -> {3}.".format(cargo_pleno, cargo_
 
 # 5. Misturando índices com parâmetros nomeados
 print("Carreira Mix: {0}, -> {pleno_engineer}.".format(cargo_junior, pleno_engineer=cargo_pleno))
+
+# Feedback do Mentor:
+print("\n--- Conclusão ---")
+print("Fernando tem potencial para ser {cargo}? Resposta: {resp}".format(cargo="Associate Software Engineer", resp="Com certeza"))
