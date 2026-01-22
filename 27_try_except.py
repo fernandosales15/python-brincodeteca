@@ -15,3 +15,7 @@ try:
 except ValueError: # Boa prática: Especifique o erro (ValueError é o erro de conversão de tipos)
     print(f"Ops {nome_digitado}, não consegui transformar o que vocé digitou em número.")
     
+except Exception as erro:
+    # Captura erros genéricos que não foram previstos acima
+    print(f"Ocorreu um erro inesperado: {erro.__class__.__name__}")
+    print(f"Detalhes: {erro}")
