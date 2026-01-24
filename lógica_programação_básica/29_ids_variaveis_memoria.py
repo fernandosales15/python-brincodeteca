@@ -10,8 +10,7 @@ variavel_a = "Fernando"
 print(id(variavel_a)) #imprime o ID (endereço de memória) da variável_a
 
 variavel_b = "Fernando Sales"
-print(id(variavel_b)) #imprime o ID (endereço de memória) da variável_b - mesmo valor de variável_a
-print(id(variavel_b)) # O ID será DIFERENTE, pois o conteúdo da string mudou ("Fernando" vs "Fernando Sales")
+print(id(variavel_b)) # O ID será DIFERENTE de variavel_a, pois o conteúdo mudou ("Fernando" vs "Fernando Sales")
 
 # Para ter o MESMO ID, precisamos apontar para o mesmo objeto:
 variavel_c = variavel_a
