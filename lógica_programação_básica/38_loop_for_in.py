@@ -32,3 +32,16 @@ for nivel in nivel_carreira:
 for batata in cargo_engineer:
     # Aqui, 'batata' vai assumir o valor de cada letra ('S', 'o', 'f'...)
     print(f"A letra atual (chamada de batata) é: {batata}") 
+
+
+equipes_europeias = ["Barcelona", "Real Madrid", "Bayern Munich", "Manchester United", "Juventus",
+"Liverpool", "Paris Saint-Germain", "Chelsea"]
+
+equipes_sulamericanas = ["Boca Juniors", "River Plate", "Flamengo", "Palmeiras", "Santos", "Peñarol", "Nacional", "São Paulo"]
+
+i = 0
+j = 0
+
+for equipe in equipes_europeias:
+    print(f"Mundial de Clubes: {equipe} x {equipes_sulamericanas[i]}")
+    i += 1 #Aqui, o 'for' percorre as equipes europeias, mas a equipe sulamericana é fixa (Boca Juniors
