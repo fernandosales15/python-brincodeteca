@@ -48,3 +48,17 @@ tech_giants = ["Google", "Amazon", "Apple", "Microsoft"]
 
 for i in range(len(tech_giants)):
     print(f"Rank {i+1}: {tech_giants[i]}")
+
+
+for j in range(300):
+
+    if j == 289:
+        print(f"Encontrei o número 289 na posicão {j}!, vamos pular")
+        continue #continue pula a iteração atual, ou seja, não executa o print abaixo para o número 289
+
+    for k in range(1, 11):
+        print(f"{j} x {k} = {j * k}")
+
+    if j == 300:
+        print(f"Cheguei no número 300, é o limite do range, vamos parar")
+        break #break para o loop quando chegar no número 300, mas como o range é exclusivo, ele não chega no 300, então esse if nunca será verdadeiro.
